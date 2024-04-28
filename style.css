@@ -1,0 +1,59 @@
+body{
+    background-color: rgba(240,240,240,255);
+}
+
+.container{
+    background-color: white;
+    height: auto;
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 1px 1px black;
+    padding: 5px;
+}
+
+.h1{
+    margin: auto;
+}
+
+.guess-input{
+    background-color: white;
+    outline: none;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: blue;
+    width: 20vw;
+    padding: 7px 0px 7px 10px;
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+.cowr{
+    margin-top: 20px;
+}
+
+.score{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.timer{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#emoji{
+    font-size: 80px;
+}
+
+#resetGame{
+    background-color: white;
+    border: 2px solid;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
